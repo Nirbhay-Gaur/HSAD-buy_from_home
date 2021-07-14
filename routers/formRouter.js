@@ -107,11 +107,15 @@ formRouter.post(
         dealer_name: req.body.dealer_name,
         i_date: req.body.i_date,
         i_num: req.body.i_num,
-        i_upload: req.file.originalname,
+        i_upload: {
+          fileName: req.file.originalname,
+          filePath: req.file.path,
+          fileType: req.file.mimetype,
+          fileSize: req.file.size,
+        },
         mod_mobile: req.body.mod_mobile,
         mod_product: req.body.mod_product,
       });
-      console.log(req.file.originalname, "hii");
       await data.save((err) => {
         if (err) {
           res
