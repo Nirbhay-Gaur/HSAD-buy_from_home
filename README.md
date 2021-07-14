@@ -31,5 +31,5 @@ node index.js
 Server has started...
 Database connected successfully
 ```
-
+> Note: Additionally, you can install pm2 package to monitor our node server, To install pm2 globally: `npm install -g pm2` and to start the server using pm2: `pm2 start index.js`. Also `pm2 monit` can be use to  monitor the server and get stats.
 
