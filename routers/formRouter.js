@@ -4,6 +4,7 @@ const Form = require("../models/formModel.js");
 const { checkOTP } = require("../otp/otp.js");
 const FinalForm = require("../models/finalFormModel.js");
 const { upload } = require("../helper/helper.js");
+const { unlink } = require("fs");
 
 const formRouter = express.Router();
 
@@ -121,6 +122,10 @@ formRouter.post(
           res
             .status(409)
             .send("Error while saving data/ Id already registered");
+          unlink(req.file.path, (err) => {
+            if (err) throw err;
+            console.log(`${req.file.path} was deleted succesfully`);
+          });
         } else {
           res.status(200).send(`Submitted`);
         }
