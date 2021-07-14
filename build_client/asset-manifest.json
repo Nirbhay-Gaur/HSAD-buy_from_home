@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c9118c5c.chunk.css",
+    "main.js": "./static/js/main.ae1770cb.chunk.js",
+    "main.js.map": "./static/js/main.ae1770cb.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6d3575e3.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6d3575e3.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "./static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e0a04348.chunk.js": "./static/js/2.e0a04348.chunk.js",
+    "static/js/2.e0a04348.chunk.js.map": "./static/js/2.e0a04348.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "./static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.c9118c5c.chunk.css.map": "./static/css/main.c9118c5c.chunk.css.map",
+    "static/js/2.e0a04348.chunk.js.LICENSE.txt": "./static/js/2.e0a04348.chunk.js.LICENSE.txt",
+    "static/media/App.css": "./static/media/LG Smart SemiBold.4112e548.woff",
+    "static/media/Whatsapp_QR_Code.ddc2eb8b.webp": "./static/media/Whatsapp_QR_Code.ddc2eb8b.webp",
+    "static/media/exclusive-offers_mobile.08000558.webp": "./static/media/exclusive-offers_mobile.08000558.webp",
+    "static/media/exclusive_offers_desktop.40f714c3.webp": "./static/media/exclusive_offers_desktop.40f714c3.webp",
+    "static/media/header-bg-desktop.21bdf097.jpg": "./static/media/header-bg-desktop.21bdf097.jpg",
+    "static/media/header-bg-mobile.4950a27e.webp": "./static/media/header-bg-mobile.4950a27e.webp",
+    "static/media/home_appliances.7ed08024.webp": "./static/media/home_appliances.7ed08024.webp",
+    "static/media/home_entertainment.87bf1ea0.webp": "./static/media/home_entertainment.87bf1ea0.webp",
+    "static/media/how_it_works_desktop.0fce20e5.webp": "./static/media/how_it_works_desktop.0fce20e5.webp",
+    "static/media/how_it_works_mobile.100c7e9b.webp": "./static/media/how_it_works_mobile.100c7e9b.webp",
+    "static/media/know_more.8b4a4933.webp": "./static/media/know_more.8b4a4933.webp",
+    "static/media/lg_logo.87a5bcfc.webp": "./static/media/lg_logo.87a5bcfc.webp",
+    "static/media/sub_offer.510610df.webp": "./static/media/sub_offer.510610df.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d3575e3.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e0a04348.chunk.js",
+    "static/css/main.c9118c5c.chunk.css",
+    "static/js/main.ae1770cb.chunk.js"
+  ]
+}
