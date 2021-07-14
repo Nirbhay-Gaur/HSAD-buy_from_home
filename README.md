@@ -1,6 +1,6 @@
 # HSAD internship project "BUY_FROM_HOME"
 
-## Insatallation
+## Installation
 
 Make sure your system has the following softwares installed for this app to work properly.
 
