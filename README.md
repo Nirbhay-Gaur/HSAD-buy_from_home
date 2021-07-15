@@ -1,4 +1,4 @@
-# HSAD internship project "BUY_FROM_HOME"
+# HSAD internship project
 
 ## Installation
 
@@ -14,11 +14,11 @@ After installing the above softwares, do the following:
 * clone this repository or download zip file 
 ```
 # To clone:
-    git clone https://github.com/Nirbhay-Gaur/HSAD-buy_from_home.git
+    git clone https://github.com/Nirbhay-Gaur/hsad_project.git
 ```
-* Change directory to HSAD-buy_from_home/ and install node packages
+* Change directory to hsad_project/ and install node packages
 ```
-cd HSAD-buy_from_home/ 
+cd hsad_project/ 
 npm install
 ```
 * Assuming that mongodb is configured to run on 27017 port, to start the node server: 
@@ -32,4 +32,3 @@ Server has started...
 Database connected successfully
 ```
 > Note: Additionally, you can install pm2 package to monitor our node server, To install pm2 globally: `npm install -g pm2` and to start the server using pm2: `pm2 start index.js`. Also `pm2 monit` can be use to  monitor the server and get stats.
-
